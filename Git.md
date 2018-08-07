@@ -12,6 +12,7 @@ git push origin [本地分支名]:[远程分支名] // 将本地分支推送到�
 git push origin [远程分支名] // 将本地分支推送到远程，没有建立跟踪
 
 git branch --set-upstream master origin/next // 指定本地的master分支追踪的origin/next分支
+git branch --unset-upstream
 
 git diff HEAD -- fileName.x // 查看工作区和版本库里最新版本的区别
 
