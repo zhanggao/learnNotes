@@ -31,41 +31,29 @@
     - [ ] MessageQueue
 
 # 知识点
-- [ ] volatile实现原理，volatile做了什么事？synchronized Lock
-
-- [ ] Java写生产者消费者
 - [ ] Java反射实现原理
-- [ ] Java注解实现原理 元注解、自定义注解、Java中常用注解使用、注解与反射的结合
-- [ ] Java泛型实现原理 类型擦除
 - [ ] volatile实现原理，volatile做了什么事？
 - [ ] Java写生产者消费者
-- [ ] Java注解实现原理
-- [x] [Java泛型实现原理](/Java泛型实现原理.md)
-- [ ] Java锁的使用方式，synchronized和lock的区别
-- [ ] mysql锁使用，乐观锁
-- [ ] 缓存穿透
-- [ ] 分布式锁的实现方式有哪些
-一个对象的创建和销毁过程
-classLoader
-JVM内存结构 堆、栈、方法区、直接内存、堆和栈区别
-java内存模型 内存可见性、重排序、顺序一致性、volatile、锁、final
-java代码的原子性
-wait sleep 死锁
-自动拆装箱
-transient、instanceof、volatile、synchronized、final、static、const 原理及用法。
-序列化底层原理
-
+- [x] [Java注解实现原理 元注解、自定义注解、Java中常用注解使用、注解与反射的结合](/Java注解实现原理.md)
+- [x] [Java泛型实现原理 类型擦除](/Java泛型实现原理.md)
+- [ ] 一个对象的创建和销毁过程
+- [ ] JVM内存结构 堆、栈、方法区、直接内存、堆和栈区别
+- [ ] java内存模型 内存可见性、重排序、顺序一致性、volatile、锁、final、volatile实现原理，volatile做了什么事？synchronized和lock的区别
+- [ ] transient、instanceof、volatile、synchronized、final、static、const 原理及用法。
+- [ ] java代码的原子性
+- [ ] wait sleep 死锁
+- [ ] 自动拆装箱
+- [ ] 序列化底层原理
 
 - [ ] [Tomcat Spring 关系](/Tomcat&Spring.md)
-- [ ] ClassLoader
 
-- [ ] Thread.currentThread().setContextClassLoader(catalinaLoader);
-- [ ] 数据库乐观锁、Redis分布式锁、ZooKeeper分布式锁
+- [ ] mysql锁使用，数据库乐观锁、Redis分布式锁、ZooKeeper分布式锁
+- [ ] 缓存穿透
+- [ ] 分布式锁的实现方式有哪些
+- [ ] classLoader Thread.currentThread().setContextClassLoader(catalinaLoader);
 - [ ] Socket NIO Netty Dubbo
 
 
-select * from tables where id = '11' // 很快 id是char类型
-select * from tables where id = 11 // 非常慢
 
 FutureTask
 
@@ -78,26 +66,8 @@ jstack jstat jmap
 netty
 zookeeper选举算法
 
-ConcurrentModificationException
-for (String s : list) {
-    if (s.startsWith("t")) {
-        list.remove(s);
-    }
-}
-
 一致性哈希
 dubbo api spi
 base cap
 分布式事务 负载均衡
 
-布隆过滤器是 利用一个超大的二进制数组和多个hash函数。
-生成:
-    1. 一个入参A，用X个hash函数生成X个值，将二进制数组上和X个值对应的置为1。
-    2. 单个布隆过滤器只能增加，不能移除；要移除的话，可以再加个黑名单过滤器。
-使用:
-    1. 入参B，用X个hash函数生成X个值，如果二进制数组上对应的X个的值全部是1，则B可能在在集合中；如果有一个不是1，则B 100%不在集合中。
-
-
-beans 节点下的配置需要成对出现
-
-maven.pom 里的 profile/properties 和 build/filters/filter 里的值会在编译时将${var}全部替换掉。
