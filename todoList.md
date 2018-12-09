@@ -34,8 +34,8 @@
 - [ ] Java反射实现原理
 - [ ] volatile实现原理，volatile做了什么事？
 - [ ] Java写生产者消费者
-- [x] [Java注解实现原理 元注解、自定义注解、Java中常用注解使用、注解与反射的结合](/Java注解实现原理.md)
-- [x] [Java泛型实现原理 类型擦除](/Java泛型实现原理.md)
+- [x] [Java注解实现原理 元注解、自定义注解、Java中常用注解使用、注解与反射的结合](/items/Java注解实现原理.md)
+- [x] [Java泛型实现原理 类型擦除](/items/Java泛型实现原理.md)
 - [ ] 一个对象的创建和销毁过程
 - [ ] JVM内存结构 堆、栈、方法区、直接内存、堆和栈区别
 - [ ] java内存模型 内存可见性、重排序、顺序一致性、volatile、锁、final、volatile实现原理，volatile做了什么事？synchronized和lock的区别
@@ -45,7 +45,7 @@
 - [ ] 自动拆装箱
 - [ ] 序列化底层原理
 
-- [ ] [Tomcat Spring 关系](/Tomcat&Spring.md)
+- [ ] [Tomcat Spring 关系](/items/Tomcat&Spring.md)
 
 - [ ] mysql锁使用，数据库乐观锁、Redis分布式锁、ZooKeeper分布式锁
 - [ ] 缓存穿透
