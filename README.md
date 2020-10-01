@@ -7,3 +7,4 @@ https://github.com/CyC2018/CS-Notes/blob/master/notes/%E8%AE%BE%E8%AE%A1%E6%A8%A
 https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 2. Java多线程：http://concurrent.redspider.group/article/02/9.html
 3. IT技术图谱：https://dunwu.github.io/
+4. ConcurrentHashMap http://www.jasongj.com/java/concurrenthashmap/
