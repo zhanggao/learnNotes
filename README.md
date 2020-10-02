@@ -8,3 +8,4 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 2. Java多线程：http://concurrent.redspider.group/article/02/9.html
 3. IT技术图谱：https://dunwu.github.io/
 4. ConcurrentHashMap http://www.jasongj.com/java/concurrenthashmap/
+5. Spring各类注解 https://thinkwon.blog.csdn.net/article/details/104397516
