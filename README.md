@@ -9,3 +9,4 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 3. IT技术图谱：https://dunwu.github.io/
 4. ConcurrentHashMap http://www.jasongj.com/java/concurrenthashmap/
 5. Spring各类注解 https://thinkwon.blog.csdn.net/article/details/104397516
+6. 设计数据密集型应用 https://vonng.gitbooks.io/ddia-cn/content/
